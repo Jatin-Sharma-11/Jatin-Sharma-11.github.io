@@ -1,10 +1,10 @@
 title: Jatin Sharma | Portfolio
 email: jatinsaroch11@gmail.com
-description: MS Research Student at IIT Indore | Machine Learning & Software Developer
+description: MS Research Student at IIT Indore | Machine Learning Enthusiast
 baseurl: ""
-url: "https://jatinsharma.github.io"
+url: "https://jatin-sharma-11.github.io"
 github_username: Jatin-Sharma-11
-theme: minima # Base theme, we'll override with custom CSS
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+markdown: kramdown

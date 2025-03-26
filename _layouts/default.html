@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><a href="{{ '/' | relative_url }}">Jatin Sharma</a></h1>
+            <nav>
+                <a href="{{ '/' | relative_url }}">Home</a>
+                <a href="#projects">Projects</a>
+                <a href="{{ '/blog' | relative_url }}">Blog</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <button id="theme-toggle">Toggle Theme</button>
+        </div>
+    </header>
+    <main class="container">
+        {{ content }}
+    </main>
+    <footer id="contact">
+        <div class="container">
+            <p>Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/jatin-sharma-87ab75204">jatin-sharma</a></p>
+        </div>
+    </footer>
+    <script src="{{ '/assets/js/script.js' | relative_url }}"></script>
+</body>
+</html>
